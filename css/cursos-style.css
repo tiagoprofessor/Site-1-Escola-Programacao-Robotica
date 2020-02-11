@@ -1,0 +1,86 @@
+
+/* ===================================================
+                       CURSOS
+=====================================================*/
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+  
+
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 0px;
+    box-sizing: border-box;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #878685 ;  
+    border-radius: 10px;
+    /*border-top-width: 10px;*/  
+}
+
+/* QUANDO MOUSE ESTIVER SOBRE O LINK MENU*/
+.produtos li:hover{
+    border-color: #FFFF00 ;
+}
+
+/* QUANDO MOUSE ESTIVER SOBRE O LINK MENU*/
+.produtos li:hover h2{
+    font-size: 28px ;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Bebas Neue'
+}
+
+.produtos img{
+    width: 180px;
+    height: 130px;
+    padding: 25px 0;
+
+}
+
+.produtos-descricao{
+    font-size: 14px;
+}
+
+.produtos-preco{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+/* ==============================================
+                     TABELA
+==================================================*/
+table{
+    width: 940px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+thead{
+    background: #FFFF00;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+}
+th, td{
+    border: 1px solid #878685;
+    padding: 7px 10px;
+}

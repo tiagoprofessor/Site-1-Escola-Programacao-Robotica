@@ -1,0 +1,107 @@
+/* ===================================================
+                 QUEM SOMOS
+=====================================================*/
+
+
+#historia p{ 
+    text-align: center;
+    margin: 10px 0px;
+    line-height: 1.5;
+
+}
+
+.valores li{
+    display: inline-block;
+    text-align: center;
+    background: #000000;
+
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 0px;
+
+    /* usado para ajustar toda a classe*/
+    box-sizing: border-box;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: #878685 ;  
+    border-radius: 10px;
+    
+    opacity: 0.8;
+    
+}
+
+.valores li:hover{
+    border-color: #FFFF00 ;
+    opacity: 1;
+    transition: 1000ms;
+}
+
+.valores h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFF00;
+    margin-bottom: 10px;
+}
+
+.valores-descricao{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.fundadores li{
+    display: inline-block;
+    text-align: center;
+    background: #FFFF00;
+
+    width: 45%;
+    margin: 0 22px;
+    padding: 10px 0px;
+
+    border-radius: 10px;
+
+
+    /* usado para ajustar toda a classe*/
+    box-sizing: border-box;
+   
+}
+
+.fundadores img{
+    width: 150px;
+    height: 150px;
+    border-radius: 120px;
+}
+
+
+
+.fundadores h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.fundadores-descricao{
+    font-size: 16px;
+}
+
+
+/* ==============================================
+                     TABELA
+==================================================*/
+table{
+    width: 940px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+thead{
+    background: #FFFF00;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+th, td{
+    border: 1px solid #878685;
+    padding: 7px 10px;
+}

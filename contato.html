@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+        <title>SAMPA - Escola de programação</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/contato-style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<header>        
+            
+            <div class="caixa">
+                <h1><img src="imagem/logo.JPG" alt=""></h1>
+                <nav>
+
+                    <ul>
+                        <li><a href="index.html"> Home </a></li>
+                        <li><a href="quem-somos.html"> Quem Somos </a></li>
+                        <li><a href="cursos.html"> Cursos </a></li>
+                        <li><a href="contato.html"> Contato </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+ 
+            <form action="">
+                <label for="idNome">Nome</label>
+                <input type="text" id="idNome" class="input-padrao" required placeholder="digite seu nome">
+
+                <label for="idTelefone">Telefone</label>
+                <input type="text" id="idTelefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
+
+                <label for="idEmail">Email</label>
+                <input type="text" id="idEmail" class="input-padrao" placeholder="seuemail@dominio.com">
+
+                <label for="idAssunto">Assunto</label>
+                <input type="text" id="idAssunto" class="input-padrao" placeholder="qual o assunto?">
+
+                <label for="idMensagem">Mensagem</label>
+                <textarea name="mensagem" id="idMensagem" cols="70" rows="10" class="input-padrao" placeholder="deixa aqui sua mensagem"></textarea>
+
+                <div>
+                    <p>Como prefere o nosso contato?</p>
+                    <label for="id-radio-email"><input type="radio" name="contato" id="id-radio-email">Email</label>
+                    <label for="id-radio-telefone"><input type="radio" name="contato" id="id-radio-telefone">Telefone</label>                 
+                </div>
+
+                <div>
+                    <p>Qual horário você prefere ser atendido?</p>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </div>
+
+
+                <label for="idNovidades" class="checkbox"><input type="checkbox" name="novidades" id="idNovidades"> Gostaria de receber novidades por email?</label>
+
+                <input type="submit" value="Enviar formulário" class="botao">
+            </form>
+
+
+
+
+        </main>
+
+
+
+
+
+
+        <footer>
+            <p> &copy; Copyright SAMPA - Educação e Tecnologia - 2020</p>
+        </footer>
+
+	</body>
+</html>
